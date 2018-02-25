@@ -57,10 +57,9 @@
             // ledPanel
             // 
             this.ledPanel.BackColor = System.Drawing.SystemColors.Control;
-            this.ledPanel.Location = new System.Drawing.Point(316, 18);
-            this.ledPanel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.ledPanel.Location = new System.Drawing.Point(211, 12);
             this.ledPanel.Name = "ledPanel";
-            this.ledPanel.Size = new System.Drawing.Size(255, 269);
+            this.ledPanel.Size = new System.Drawing.Size(170, 175);
             this.ledPanel.TabIndex = 0;
             // 
             // gbconfig
@@ -69,61 +68,53 @@
             this.gbconfig.Controls.Add(this.label2);
             this.gbconfig.Controls.Add(this.txtConnectionString);
             this.gbconfig.Controls.Add(this.label1);
-            this.gbconfig.Location = new System.Drawing.Point(18, 340);
-            this.gbconfig.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbconfig.Location = new System.Drawing.Point(12, 221);
             this.gbconfig.Name = "gbconfig";
-            this.gbconfig.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbconfig.Size = new System.Drawing.Size(834, 128);
+            this.gbconfig.Size = new System.Drawing.Size(556, 83);
             this.gbconfig.TabIndex = 1;
             this.gbconfig.TabStop = false;
             this.gbconfig.Text = "IoTHub Configuration";
             // 
             // txtDeviceId
             // 
-            this.txtDeviceId.Location = new System.Drawing.Point(177, 80);
-            this.txtDeviceId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDeviceId.Location = new System.Drawing.Point(118, 52);
             this.txtDeviceId.Name = "txtDeviceId";
-            this.txtDeviceId.Size = new System.Drawing.Size(646, 26);
+            this.txtDeviceId.Size = new System.Drawing.Size(432, 20);
             this.txtDeviceId.TabIndex = 3;
             this.txtDeviceId.Leave += new System.EventHandler(this.txtDeviceId_Leave);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 85);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(6, 55);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "Device ID";
             // 
             // txtConnectionString
             // 
-            this.txtConnectionString.Location = new System.Drawing.Point(177, 40);
-            this.txtConnectionString.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtConnectionString.Location = new System.Drawing.Point(118, 26);
             this.txtConnectionString.Name = "txtConnectionString";
-            this.txtConnectionString.Size = new System.Drawing.Size(646, 26);
+            this.txtConnectionString.Size = new System.Drawing.Size(432, 20);
             this.txtConnectionString.TabIndex = 1;
             this.txtConnectionString.Leave += new System.EventHandler(this.txtConnectionString_Leave);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(9, 45);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(6, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 20);
+            this.label1.Size = new System.Drawing.Size(91, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Connection String";
             // 
             // gbSettings
             // 
             this.gbSettings.Controls.Add(this.chkAuto);
-            this.gbSettings.Location = new System.Drawing.Point(18, 477);
-            this.gbSettings.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbSettings.Location = new System.Drawing.Point(12, 310);
             this.gbSettings.Name = "gbSettings";
-            this.gbSettings.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbSettings.Size = new System.Drawing.Size(396, 257);
+            this.gbSettings.Size = new System.Drawing.Size(264, 167);
             this.gbSettings.TabIndex = 2;
             this.gbSettings.TabStop = false;
             this.gbSettings.Text = "Settings";
@@ -131,10 +122,9 @@
             // chkAuto
             // 
             this.chkAuto.AutoSize = true;
-            this.chkAuto.Location = new System.Drawing.Point(13, 44);
-            this.chkAuto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.chkAuto.Location = new System.Drawing.Point(9, 29);
             this.chkAuto.Name = "chkAuto";
-            this.chkAuto.Size = new System.Drawing.Size(248, 24);
+            this.chkAuto.Size = new System.Drawing.Size(166, 17);
             this.chkAuto.TabIndex = 0;
             this.chkAuto.Text = "Send Command Automatically";
             this.chkAuto.UseVisualStyleBackColor = true;
@@ -145,11 +135,10 @@
             this.gbMethods.Controls.Add(this.txtRGBVal);
             this.gbMethods.Controls.Add(this.radioButton2);
             this.gbMethods.Controls.Add(this.radioButton1);
-            this.gbMethods.Location = new System.Drawing.Point(456, 477);
-            this.gbMethods.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbMethods.Controls.Add(this.btnSend);
+            this.gbMethods.Location = new System.Drawing.Point(304, 310);
             this.gbMethods.Name = "gbMethods";
-            this.gbMethods.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbMethods.Size = new System.Drawing.Size(396, 257);
+            this.gbMethods.Size = new System.Drawing.Size(264, 167);
             this.gbMethods.TabIndex = 3;
             this.gbMethods.TabStop = false;
             this.gbMethods.Text = "Methods";
@@ -157,10 +146,9 @@
             // txtRGBVal
             // 
             this.txtRGBVal.ForeColor = System.Drawing.Color.Gray;
-            this.txtRGBVal.Location = new System.Drawing.Point(154, 42);
-            this.txtRGBVal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtRGBVal.Location = new System.Drawing.Point(103, 27);
             this.txtRGBVal.Name = "txtRGBVal";
-            this.txtRGBVal.Size = new System.Drawing.Size(230, 26);
+            this.txtRGBVal.Size = new System.Drawing.Size(155, 20);
             this.txtRGBVal.TabIndex = 2;
             this.txtRGBVal.Text = "e.g.: 255,255,255";
             this.txtRGBVal.Enter += new System.EventHandler(this.txtRGBVal_Enter);
@@ -168,10 +156,9 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(9, 43);
-            this.radioButton2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButton2.Location = new System.Drawing.Point(6, 28);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(134, 24);
+            this.radioButton2.Size = new System.Drawing.Size(91, 17);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Light All LEDs";
@@ -180,10 +167,9 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(9, 80);
-            this.radioButton1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.radioButton1.Location = new System.Drawing.Point(6, 52);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(210, 24);
+            this.radioButton1.Size = new System.Drawing.Size(141, 17);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Random Animation Loop";
@@ -191,10 +177,9 @@
             // 
             // btnSend
             // 
-            this.btnSend.Location = new System.Drawing.Point(380, 297);
-            this.btnSend.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSend.Location = new System.Drawing.Point(183, 138);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(112, 35);
+            this.btnSend.Size = new System.Drawing.Size(75, 23);
             this.btnSend.TabIndex = 4;
             this.btnSend.Text = "Send Sketch";
             this.btnSend.UseVisualStyleBackColor = true;
@@ -202,76 +187,68 @@
             // lblLED
             // 
             this.lblLED.AutoSize = true;
-            this.lblLED.Location = new System.Drawing.Point(729, 49);
-            this.lblLED.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblLED.Location = new System.Drawing.Point(486, 32);
             this.lblLED.Name = "lblLED";
-            this.lblLED.Size = new System.Drawing.Size(50, 20);
+            this.lblLED.Size = new System.Drawing.Size(35, 13);
             this.lblLED.TabIndex = 5;
             this.lblLED.Text = "LED#";
             // 
             // txtR
             // 
-            this.txtR.Location = new System.Drawing.Point(734, 77);
-            this.txtR.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtR.Location = new System.Drawing.Point(489, 50);
             this.txtR.Name = "txtR";
-            this.txtR.Size = new System.Drawing.Size(61, 26);
+            this.txtR.Size = new System.Drawing.Size(42, 20);
             this.txtR.TabIndex = 6;
             this.txtR.Leave += new System.EventHandler(this.txtR_Leave);
             // 
             // txtG
             // 
-            this.txtG.Location = new System.Drawing.Point(734, 117);
-            this.txtG.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtG.Location = new System.Drawing.Point(489, 76);
             this.txtG.Name = "txtG";
-            this.txtG.Size = new System.Drawing.Size(61, 26);
+            this.txtG.Size = new System.Drawing.Size(42, 20);
             this.txtG.TabIndex = 7;
             this.txtG.Leave += new System.EventHandler(this.txtG_Leave);
             // 
             // txtB
             // 
-            this.txtB.Location = new System.Drawing.Point(734, 157);
-            this.txtB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtB.Location = new System.Drawing.Point(489, 102);
             this.txtB.Name = "txtB";
-            this.txtB.Size = new System.Drawing.Size(61, 26);
+            this.txtB.Size = new System.Drawing.Size(42, 20);
             this.txtB.TabIndex = 8;
             this.txtB.Leave += new System.EventHandler(this.txtB_Leave);
             // 
             // lblR
             // 
             this.lblR.AutoSize = true;
-            this.lblR.Location = new System.Drawing.Point(702, 82);
-            this.lblR.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblR.Location = new System.Drawing.Point(468, 53);
             this.lblR.Name = "lblR";
-            this.lblR.Size = new System.Drawing.Size(21, 20);
+            this.lblR.Size = new System.Drawing.Size(15, 13);
             this.lblR.TabIndex = 9;
             this.lblR.Text = "R";
             // 
             // lblG
             // 
             this.lblG.AutoSize = true;
-            this.lblG.Location = new System.Drawing.Point(702, 122);
-            this.lblG.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblG.Location = new System.Drawing.Point(468, 79);
             this.lblG.Name = "lblG";
-            this.lblG.Size = new System.Drawing.Size(22, 20);
+            this.lblG.Size = new System.Drawing.Size(15, 13);
             this.lblG.TabIndex = 10;
             this.lblG.Text = "G";
             // 
             // lblB
             // 
             this.lblB.AutoSize = true;
-            this.lblB.Location = new System.Drawing.Point(702, 162);
-            this.lblB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblB.Location = new System.Drawing.Point(468, 105);
             this.lblB.Name = "lblB";
-            this.lblB.Size = new System.Drawing.Size(20, 20);
+            this.lblB.Size = new System.Drawing.Size(14, 13);
             this.lblB.TabIndex = 11;
             this.lblB.Text = "B";
             // 
             // btnReset
             // 
-            this.btnReset.Location = new System.Drawing.Point(730, 297);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnReset.Location = new System.Drawing.Point(487, 193);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(112, 35);
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 12;
             this.btnReset.Text = "Reset Matrix";
             this.btnReset.UseVisualStyleBackColor = true;
@@ -279,9 +256,9 @@
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 752);
+            this.ClientSize = new System.Drawing.Size(580, 489);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.lblB);
             this.Controls.Add(this.lblG);
@@ -290,13 +267,11 @@
             this.Controls.Add(this.txtG);
             this.Controls.Add(this.txtR);
             this.Controls.Add(this.lblLED);
-            this.Controls.Add(this.btnSend);
             this.Controls.Add(this.gbMethods);
             this.Controls.Add(this.gbSettings);
             this.Controls.Add(this.gbconfig);
             this.Controls.Add(this.ledPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

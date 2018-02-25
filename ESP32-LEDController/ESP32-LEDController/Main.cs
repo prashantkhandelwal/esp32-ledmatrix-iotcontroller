@@ -89,6 +89,8 @@ namespace ESP32_LEDController
             {
                 ctrl.BackColor = Color.White;
             }
+
+            //TODO: Send the reset command to trun off all the LEDs
         }
 
         private void txtR_Leave(object sender, EventArgs e)

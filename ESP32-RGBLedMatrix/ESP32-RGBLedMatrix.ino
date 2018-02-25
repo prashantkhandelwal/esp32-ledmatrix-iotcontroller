@@ -182,12 +182,12 @@ void setup() {
 }
 
 void MatrixControl(int led, int R, int G, int B) {
-  delay(1);
+  delay(10);
   strip.show();
 
-  Serial.println("Hello: " + String(led));
+  //Serial.println("Hello: " + String(led));
   strip.setPixelColor(led, strip.Color(R, G, B));
-  delay(10);
+  //delay(10);
   strip.show();
 }
 
